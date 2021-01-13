@@ -38,6 +38,7 @@ form.addEventListener('submit', e => {
 
 
     const url = `https://wa.me/${code}${number}?text=${message}`
-    window.open(url)
+    // window.open(url)
+    window.location.href = url
 
 })
