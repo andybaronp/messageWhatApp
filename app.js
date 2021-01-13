@@ -11,7 +11,7 @@ inputs.forEach((elemen) => {
     elemen.addEventListener('keyup', () => {
 
         if (elemen.value.length > 2) {
-            console.log('hola estoy vacio');
+
             btn.disabled = false
 
         }
